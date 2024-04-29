@@ -1,0 +1,35 @@
+#wrapper{
+    display:grid;
+    grid-template-areas: "header header header"
+    "navigation maincontent maincontent"
+    "sidebar sidebar sidebar"
+    "footer footer footer";
+}
+div{
+    border:1px solid black;
+}
+#header{
+    grid-area: header;
+    text-align: center;
+    font-size: 31px;
+    background-color: aqua;
+}
+#navigation{
+    grid-area: navigation;
+    text-align: center;
+    background-color: aqua;
+}
+#maincontent{
+    grid-area: maincontent;
+    text-align: center;
+    background-color:aliceblue
+}
+#sidebar{
+    grid-area: sidebar;
+    text-align: center;
+    background-color: aliceblue;
+}
+#footer{
+    grid-area: footer;
+    text-align: center;
+}
